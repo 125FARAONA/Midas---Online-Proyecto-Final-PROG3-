@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Midas Bank Co. — Inicio</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body class="bg-gray-50 dark:bg-gray-900 text-gray-900 dark:text-gray-100 transition-colors duration-500">
+<header class="w-full py-4 px-6 flex items-center justify-between">
+  <div class="flex items-center gap-3">
+    <img src="images/logo.svg" class="w-10 h-10 logo-3d" alt="Midas logo">
+    <span class="text-xl font-semibold tracking-wide">Midas Bank Co.</span>
+  </div>
+  <div class="flex items-center gap-2">
+    <button id="themeToggle" class="btn-secondary">Modo Claro/Oscuro</button>
+    <a href="login.html" class="btn-primary">Entrar</a>
+  </div>
+</header>
+
+<section class="hero relative overflow-hidden">
+  <div class="hero-glow"></div>
+  <div class="container mx-auto px-6 py-16 text-center">
+    <h1 class="text-4xl md:text-6xl font-extrabold mb-4 fade-in">Tu dinero, con el toque de Midas</h1>
+    <p class="text-lg md:text-xl opacity-90 mb-8 fade-in-2">Banca digital ficticia con seguridad, estilo y una experiencia impecable.</p>
+    <a href="login.html" class="btn-primary btn-lg pulse">Usar Midas Online</a>
+  </div>
+</section>
+
+<section class="container mx-auto px-6 py-16 grid md:grid-cols-3 gap-6">
+  <div class="card3d p-6">
+    <h3 class="text-xl font-bold mb-2">Pagos y Transferencias</h3>
+    <p class="opacity-80">Simula pagos y transfiere entre cuentas con feedback inmediato.</p>
+  </div>
+  <div class="card3d p-6">
+    <h3 class="text-xl font-bold mb-2">Insights</h3>
+    <p class="opacity-80">Gráfico dinámico de gastos por categoría con degradado dorado.</p>
+  </div>
+  <div class="card3d p-6">
+    <h3 class="text-xl font-bold mb-2">Tema Midas</h3>
+    <p class="opacity-80">Modo claro/oscuro persistente y detalles dorados elegantes.</p>
+  </div>
+</section>
+
+<footer class="py-8 text-center opacity-80">
+  <p>© <span id="year"></span> Midas Bank Co. — Midas Online</p>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>

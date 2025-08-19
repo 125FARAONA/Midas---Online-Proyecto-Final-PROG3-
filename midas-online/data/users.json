@@ -1,0 +1,35 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Rozenny Valentín",
+      "email": "rozenny@example.com",
+      "password": "123456",
+      "accountNumber": "**** 2218",
+      "balance": 7250,
+      "ccLimit": 4200,
+      "savings": 1800,
+      "transactions": [
+        { "category": "Transferencia", "amount": 350, "note": "A Juan" },
+        { "category": "Pago", "amount": 220, "note": "Luz" },
+        { "category": "Compras Online", "amount": 129, "note": "Tienda" },
+        { "category": "Tarjeta de Crédito", "amount": 450, "note": "Corte" },
+        { "category": "Inversión", "amount": 300, "note": "Fondo" }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ana López",
+      "email": "ana@example.com",
+      "password": "abcd",
+      "accountNumber": "**** 9041",
+      "balance": 3920,
+      "ccLimit": 2500,
+      "savings": 950,
+      "transactions": [
+        { "category": "Pago", "amount": 140, "note": "Internet" },
+        { "category": "Compras Online", "amount": 90, "note": "Suscripción" }
+      ]
+    }
+  ]
+}
